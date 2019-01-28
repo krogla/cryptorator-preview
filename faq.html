@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+	<link rel="stylesheet" href="css/styles.css?201901211530">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="wrapin">
+			<header class="header">
+				<div class="blockin">
+					<div class="row flex aic">
+						<div class="col-sm-9 col-xs-12">
+							<div class="flex aic jcsb top with-logo">
+								<a href="index.html" class="logo">cryptorator</a>
+								<div class="header_button">
+									<a href="#" class="lang" key="QUICKGAMES">короткие игры</a>
+									<a href="#" class="red lang" key="ROYALGAME">королевская игра</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 right  with-translations">
+							<div class="header_price">
+								<div><span class="lang" key="BALANCE">Баланс: </span><span>386.45 ETH</span></div>
+								<div><span class="lang" key="JACKPOT">Джекпот: </span><span class="green"> 960 ETH</span></div>
+							</div>
+							<ul>
+								
+								<li>
+									<a href="#" class="current-lang"><img src="images/rus.svg" alt=""> Рус</a>
+									<ul>
+										<li><a href="#" id="en-gb" class="translate" ><img src="images/eng.svg" alt=""> Eng</a></li>
+										<li><a href="#" class="translate" id="ru-ru"><img src="images/rus.svg" alt=""> Рус</a></li>
+										<li><a href="#" class="translate" id="cn-cn"><img src="images/china.svg" alt=""> Chi</a></li>
+										<li><a href="#" class="translate" id="jp-jp"><img src="images/japan.svg" alt=""> Jap</a></li>
+										<li><a href="#" class="translate" id="sk-sk"><img src="images/south_korea.svg" alt=""> SKr</a></li>
+										<li><a href="#" class="translate" id="br-br"><img src="images/brazil.svg" alt=""> Bra</a></li>
+									</ul>
+								</li>
+								<li><a href="faq.html">F.A.Q.</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="tablet-nav"></div>
+				</div>
+			</header>
+			<section class="content">
+				<div class="blockin">
+					<div class="row flex">
+						<div class="col-md-9 col-xs-12">
+							<div class="faq_block">
+								<div class="f_title lang" key="FAQ">Часто задаваемые вопросы</div>
+								<div class="baron">
+									<div class="baron__scroller">
+										<div class="block">
+											<div class="title"><span>1. </span><span class="lang" key="FAQ1HEADER"> Почему я должен доверять Вашему сайту?</span></div>
+											<div class="body lang" key="FAQ1">
+												Все операций со ставками проводит смарт-контракт, построенный на протоколе Ethereum. Вы можете убедиться в
+												его безопасности и честности из документального аудита или самостоятельно.
+												В случае, если Вы являетесь программистом , то Вы можете самостоятельно провести аудит нашего
+												смарт-контракта.
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>2. </span><span class="lang" key="FAQ2HEADER"> Адрес смарт контракта:</span></div>
+											<div class="body lang" key="FAQ2">
+												Все операций со ставками проводит смарт-контракт, построенный на протоколе Ethereum. Вы можете убедиться в
+												его безопасности и честности из документального аудита или самостоятельно.
+												В случае, если Вы являетесь программистом , то Вы можете самостоятельно провести аудит нашего
+												смарт-контракта.
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>3. </span><span class="lang" key="FAQ3HEADER"> В чем суть игры?</span></div>
+											<div class="body lang" key="FAQ3">
+												В основе нашей игры пари между игроками на курс криптовалют Ethereum и Bitcoin в определенный момент
+												времени.
+												Игроки делают произвольные ставки на указанный ими курс.
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>4. </span><span class="lang" key="FAQ4HEADER"> Как зарегистрироваться?</span></div>
+											<div class="body lang" key="FAQ4">
+												Для регистрации в системе Вам необходимо использовать Metamask.
+												Нажмите на кнопку «Старт» и подтвердите соединение с нашим сервисом.
+												Если Вы никогда не пользовались Ethereum кошельком Metamask, то Вы можете скачать и установить его по
+												ссылке.
+												Загрузите и установите из Apple Appstore и Google play приложение Trust.
+												В приложении trust выберите вкладку браузера и введить адрес нашего сервиса:
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>5. </span></span><span class="lang" key="FAQ5HEADER"> Как войти?</span></div>
+											<div class="body lang" key="FAQ5">
+												Используйте метамаск или кошелек trust на мобильном устройстве.
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>6. </span><span class="lang" key="FAQ6HEADER"> Как распределяется выигрыш среди
+													победителей?</span></div>
+											<div class="body lang" key="FAQ6">
+												Распределение выигрыша в игре осуществляется по следующим правилам:<br>
+												1. Джекпот достается игроку, который сделал любую по размеру ставку на точный результат.<br>
+												2. В случае если таких игроков несколько, то Джекпот распределяется между ними пропорционально размеру их
+												ставок.<br>
+												3. В случае если нет ниодного точного значения, то 10% всех игроков, поставивших на ближайшее значение
+												выигрывают в раунде. Размер их выигрыша также пропорционален их ставкам.
+												Пример:<br>
+												Предположим в игре участвуют 50 игроков. Общий банк игры составляет 100 eth<br>
+												В случае, если не было угадано точное значение, то 5 игроков делят между собой банк игры, который
+												считается по принципу ( 100eth - сумму ставок победителей) - 10% комиссии игры.<br>
+												Предположим что сумма ставок победителей равно 10eth из которых<br>
+												1 игрок поставил: 2 eth<br>
+												2 игрок поставил 3 eth<br>
+												3 игрок поставил 1 eth<br>
+												4 игрок поставил 0.5 eth<br>
+												5 игрок поставил 3.5 eth<br>
+												Следовательно каждый из них получит следующие выигрыши:<br>
+												1 игрок поставил: 2 eth (20%) выиграл 16.2 eth<br>
+												2 игрок поставил 3 eth (30%) выиграл 24.3 eth<br>
+												3 игрок поставил 1 eth (10%) выиграл 8.1 eth<br>
+												4 игрок поставил 0.5 eth (5%) выиграл 4.05 eth<br>
+												5 игрок поставил 3.5 eth (35%) выиграл 28.35 eth
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>7. </span><span class="lang" key="FAQ7HEADER"> Сколько ставок я могу сделать
+													одновременно?</span></div>
+											<div class="body lang" key="FAQ7">
+												На текущий момент Вы можете сделать 8 ставок одновременно.
+												4 ставки на курс криптовалюты ethereum.
+												4 ставки на курс криптовалюты Bitcoin.
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>8. </span></span><span class="lang" key="FAQ8HEADER"> Как я могу забрать свой
+													выигрыш?</span></div>
+											<div class="body lang" key="FAQ8">
+												Для того, чтобы получить свой выигрыш Вам не нужно ничего делать. По результатам каждого раунда
+												смарт-контракт самостоятельно начисляет выигрыш победителям.
+												Информацию о начислениях и исходах игр Вы можете посмотреть во вкладке «Результаты», которая находится в
+												правом верхнем углу основного экрана.
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>9. </span> </span><span class="lang" key="FAQ9HEADER"> Что такое королевская игра?</span></div>
+											<div class="body lang" key="FAQ9">
+												Королевская игра содержит повышенный джекпот за счет небольшого отчисления в размере 5% с каждой короткой
+												игры.
+												В итоге мы прибавляем накопленный Джекпот от коротких игр к основному Джекпоту королевской игры.
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>10. </span><span class="lang" key="FAQ10HEADER"> Условия участия в королевской игре?</span></div>
+											<div class="body lang" key="FAQ10">
+												Для того, чтобы принять участие в «Королевской игре» пользователю необходимо выполнить 3 условия:<br>
+												1. Принять участие хотя бы в 1 короткой игре за день<br>
+												2. Расшарить информацию об игре на своей страничке в facebook или twitter<br>
+												3. Сделать любую ставку в Королевской игре.
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>11. </span><span class="lang" key="FAQ11HEADER"> Как участвовать и какие условия в
+													реферальной программе?</span></div>
+											<div class="body lang" key="FAQ11">
+												Реферальная программа доступна любому игроку и активируется сразу после регистрации.
+												Мы выплачиваем 1% от рефералу от суммы нашей комисси по приведенному игроку.
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>12. </span><span class="lang" key="FAQ12HEADER"> Как связаться технической
+													поддержкой?</span></div>
+											<div class="body lang" key="FAQ12">
+												Если у Вас есть вопросы, связанные с игрой и ее работоспособностью, то Вы можете задать их в группе
+												telegram: @cryptobrazzers
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>13. </span><span class="lang" key="FAQ13HEADER"> Откуда вы берете значение курсов
+													криптовалют?</span></div>
+											<div class="body lang" key="FAQ13">
+												На текущий момент все курсы мы берем с сайта coinmarketcap.com
+											</div>
+										</div>
+										<div class="block">
+											<div class="title"><span>14. </span><span class="lang" key="FAQ14HEADER"> Каков размер вашей комиссии?</span></div>
+											<div class="body lang" key="FAQ14">
+												Мы берем 10% со ставок проигравшей стороны.
+												5% из этих денег уходят в фонд Королевской игры.
+												5% распределяется между администраторами площадки, а также реферальными участниками.
+											</div>
+										</div>
+									</div>
+									<div class="baron__track">
+										<div class="baron__free">
+											<div class="baron__bar"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12">
+							<div class="tab_valet">
+								<div class="valt_block active">
+									<div class="right_col">
+										<div class="mobwrap">
+											<div class="block">
+												<div class="wrap">
+													<div class="title lang" key="BALANCE">Баланс</div>
+													<div class="balance flex aic jcsb">
+														<span>386.45 ETH</span>
+														<a href="#popup" class="openmodal lang" key="Withdraw">Вывести</a>
+													</div>
+													<input type="text" value="16RrSwERbS4f5RwBRQbRrSw48fds4с" id="copylink">
+													<a href="#" class="link copybufer">16RrSwERbS4f5RwBRQbRrSw48fds4с</a>
+													<div class="infocopy">Скорпировано</div>
+												</div>
+											</div>
+											<div class="block">
+												<div class="wrap">
+													<div class="title flex jcsb aic"><span class="lang" key="YOURBET">Ставка</span> <span>17:00 <span class="lang" key="SHORTGAME">Короткая Игра</span></span></div>
+													<div class="step">
+														<div class="step_block active">
+															<div class="wrap_step">
+																<div class="rate">
+																	<div class="r_title lang" key="Currency">Валюта</div>
+																	<div class="radioblock flex aic jcsb">
+																		<label>
+																			<input type="radio" name="rate1" checked>
+																			<span>ETH</span>
+																		</label>
+																		<label>
+																			<input type="radio" name="rate1">
+																			<span>BTC</span>
+																		</label>
+																	</div>
+																</div>
+																<div class="row kurs">
+																	<div class="col-xs-6">
+																		<span class="lang" key="YOURRATE">Ваш курс:</span> (USD)
+																		<div>0.000</div>
+																	</div>
+																	<div class="col-xs-6">
+																		<span class="lang" key="YOURBET">Ставка</span> (BTC)
+																		<div>0.00001</div>
+																	</div>
+																</div>
+																<button class="site_button lang" key="DOBET">сделать ставку</button>
+															</div>
+														</div>
+														<div class="step_block">
+															<div class="wrap_step">
+																<div class="step_info">
+																	<span class="lang" key="BETACCEPTED">Ваша ставка принята!</span>
+																	<span class="lang" key="UCANMAKEBETS">Вы можете сделать еще 3 ставки</span>
+																</div>
+																<button class="site_button lang" key="ADDBET">добавить ставку</button>
+															</div>
+														</div>
+														<div class="step_block">
+															<div class="wrap_step big">
+																<div class="step_info">
+																	<span class="lang" key="ALLBETSACCEPTED">Все ставки приняты!</span>
+																	<span class="lang" key="WAITFORRESULT">Дождитесь результата игры</span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="close"></div>
+										</div>
+										<div class="showmob">
+											<a href="#" class="site_button big openblock lang" key="DOBET">сделать ставку</a>
+										</div>
+										<div class="textblock">
+												<span class="lang social-header" key="JOINUS">Присоединяйтесь к нам:</span><br>
+											<div class="social-links">
+												<a href="#" class="tg-link">Telegram</a>
+												<a href="#" class="dc-link">Discord</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="valt_block">
+									<div class="right_col">
+										<div class="mobwrap">
+											<div class="block">
+												<div class="wrap">
+													<div class="title">Баланс</div>
+													<div class="balance flex aic jcsb">
+														<span>386.45 ETH</span>
+														<a href="#popup" class="openmodal">Вывести</a>
+													</div>
+													<input type="text" value="16RrSwERbS4f5RwBRQbRrSw48fds4с" id="copylink">
+													<a href="#" class="link copybufer">16RrSwERbS4f5RwBRQbRrSw48fds4с</a>
+													<div class="infocopy">Скорпировано</div>
+												</div>
+											</div>
+											<div class="block">
+												<div class="wrap">
+													<div class="title flex jcsb aic">Ставка <span>17:00 Короткая Игра</span></div>
+													<div class="step">
+														<div class="step_block active">
+															<div class="wrap_step">
+																<div class="rate">
+																	<div class="r_title">Валюта</div>
+																	<div class="radioblock flex aic jcsb">
+																		<label>
+																			<input type="radio" name="rate2">
+																			<span>ETH</span>
+																		</label>
+																		<label>
+																			<input type="radio" name="rate2" checked>
+																			<span>BTC</span>
+																		</label>
+																	</div>
+																</div>
+																<div class="row kurs">
+																	<div class="col-xs-6">
+																		Ваш курс (USD)
+																		<div>0.000</div>
+																	</div>
+																	<div class="col-xs-6">
+																		Ставка (BTC)
+																		<div>0.00001</div>
+																	</div>
+																</div>
+																<button class="site_button">сделать ставку</button>
+															</div>
+														</div>
+														<div class="step_block">
+															<div class="wrap_step">
+																<div class="step_info">
+																	<span>Ваша ставка принята!</span>
+																	Вы можете сделать еще 3 ставки
+																</div>
+																<button class="site_button">добавить ставку</button>
+															</div>
+														</div>
+														<div class="step_block">
+															<div class="wrap_step big">
+																<div class="step_info">
+																	<span>Все ставки приняты!</span>
+																	Дождитесь результата игры
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="close"></div>
+										</div>
+										<div class="showmob">
+											<a href="#" class="site_button big openblock">сделать ставку</a>
+										</div>
+										<div class="textblock">
+											Ethereum - децентрализованная платформа, которая выполняет умные контракты: приложения, которые работают
+											точно <br>...
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<div class="blockin">
+				<div class="row">
+					<div class="col-sm-9 col-xs-7">
+						<div class="copyright">
+							© 2018 <strong>CryptoBra<span>zz</span>ers</strong>
+						</div>
+					</div>
+					<!-- <div class="col-sm-3 col-xs-5 right">
+						<a href="#" class="tg_link">Наш канал в <strong>Telegram</strong></a>
+					</div> -->
+				</div>
+			</div>
+		</footer>
+		<div class="popup_wrap" id="popup">
+			<div class="wrap">
+				<div class="step_popup active">
+					<div class="p_title">Вывод средств</div>
+					<form action="/" class="send">
+						<div class="row">
+							<div class="col-xs-12">
+								<span>Кошелек получателя</span>
+								<input type="text" value="16RrSwERbS4f5RwBRQbRrSw48fds4с">
+							</div>
+							<div class="col-xs-6">
+								<span>Сумма (ETH)</span>
+								<input type="text" value="0.00">
+							</div>
+							<div class="col-xs-6">
+								<span>Комиссия (ETH)</span>
+								<input type="text" value="0.00001">
+							</div>
+							<div class="col-xs-12 flex jcc">
+								<button class="site_button minbut">отправить</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="step_popup">
+					<div class="p_title">Успешно!</div>
+					<div class="text">
+						Вы вывели <strong>0.25 ETH</strong> <br>
+						на кошелек: 16RrSwERbS4f5RwBRQbRrSw48fds4с
+					</div>
+				</div>
+				<div class="closebut"></div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/baron.js"></script>
+	<script src="js/main.js?201901211530"></script>
+	<script src="js/translations.js?201901211530"></script>
+</body>
+
+</html>

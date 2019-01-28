@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+	<link rel="stylesheet" href="css/styles.css?201901211530">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="wrapin">
+			<header class="header">
+				<div class="blockin">
+					<div class="row flex aic">
+						<div class="col-sm-4 col-md-9 col-xs-12">
+							<div class="flex aic jcsb top with-logo">
+								<a href="index.html" class="logo">cryptorator</a>
+								<div class="header_button">
+									<a href="#" class="lang" key="QUICKGAMES">короткие игры</a>
+									<a href="#" class="red lang" key="ROYALGAME">королевская игра</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-3 col-xs-6 order-sm-2 right with-translations">
+							<div class="header_price">
+								<div><span class="lang" key="BALANCE">Баланс:</span> <span>386.45 ETH</span></div>
+								<div><span class="lang" key="JACKPOT">Джекпот:</span> <span class="green">960 ETH</span></div>
+							</div>
+							<ul>
+								
+								<li>
+									<a href="#" class="current-lang"><img src="images/rus.svg" alt=""> Рус</a>
+									<ul>
+										<li><a href="#" id="en-gb" class="translate" ><img src="images/eng.svg" alt=""> Eng</a></li>
+										<li><a href="#" class="translate" id="ru-ru"><img src="images/rus.svg" alt=""> Рус</a></li>
+										<li><a href="#" class="translate" id="cn-cn"><img src="images/china.svg" alt=""> Chi</a></li>
+										<li><a href="#" class="translate" id="jp-jp"><img src="images/japan.svg" alt=""> Jap</a></li>
+										<li><a href="#" class="translate" id="sk-sk"><img src="images/south_korea.svg" alt=""> SKr</a></li>
+										<li><a href="#" class="translate" id="br-br"><img src="images/brazil.svg" alt=""> Bra</a></li>
+									</ul>
+								</li>
+								<li><a href="faq.html">F.A.Q.</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="tablet-nav"></div>
+				</div>
+			</header>
+			<section class="content">
+				<div class="blockin">
+					<div class="row flex">
+						<div class="col-md-9 col-xs-12">
+							<div class="select_block flex aic jcsb">
+								<ul class="info_menu">
+									<li class="active">
+										<a href="#">
+											<img src="images/m1.svg" alt="">
+											<img src="images/m1h.svg" alt="">
+											Eth
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="images/m2.svg" alt="">
+											<img src="images/m2h.svg" alt="">
+											BTC
+										</a>
+									</li>
+								</ul>
+								<div class="info lang" key="CHOSENSHORT">Вы выбрали <strong>Короткие игры BTC</strong></div>
+								<ul class="param">
+									<li class="active">
+										<a href="#">
+											<img src="images/info.svg" alt="">
+											<img src="images/info2.svg" alt="">
+											<span class="lang" key="RESULTS">Результаты</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="images/graph.svg" alt="">
+											<img src="images/graph2.svg" alt="">
+											<span class="lang" key="CHART">График</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tab_body">
+								<div class="tab_block" style="display: block;">
+									<div class="tab_valet">
+										<div class="valt_block active">
+											<div class="info_game pageblock active">
+												<div class="title lang" key="GAMEINFORMATION">Информация об Игре</div>
+												<div class="body" style="display: block;">
+													<div class="top flex jcsb aic">
+														<div class="block"><span class="lang" key="GAMEENDIN">Конец игры через:</span><strong class="time"><span class="hour">00</span>:<span class="min">23</span>:<span class="sec">07</span></strong></div>
+														<div class="block"><span class="lang" key="CURENTRATE">Текущий курс: </span><strong>&nbsp;309.75 USD</strong></div>
+														<div class="block"><span class="lang" key="PLAYERSCOUNT">Игроков: </span><strong>1 893</strong></div>
+														<div class="block"><span class="lang" key="PRIZE">Приз: </span><strong class="green">185 ETH</strong></div>
+														<div class="block"><span class="lang" key="NEXTGAMEIN">Следующая игра через: </span><strong class="time"><span class="hour">00</span>:<span class="min">23</span>:<span class="sec">07</span></strong></div>
+													</div>
+													<div class="graph" id="chart_container_eth">
+														<!-- <img src="images/graph1.png" alt=""> -->
+													</div>
+													<div class="flex jcc">
+														<div class="graph_info">Based on coinmarketcap.com</div>
+													</div>
+												</div>
+											</div>
+											<div class="bet">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="pageblock">
+															<div class="b_title lang" key="CURRENTBETS">Текущие ставки</div>
+															<div class="title lang" key="CURRENTBETS">Текущие ставки</div>
+															<div class="body">
+																<div class="row flex">
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block active">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block ative">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="pageblock">
+															<div class="b_title lang" key="BETSONTHENEXTGAME">Ставки на следующую игру (17:00)</div>
+															<div class="title lang" key="BETSONTHENEXTGAME">Ставки на следующую игру (17:00)</div>
+															<div class="body">
+																<div class="row flex">
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block ative">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="valt_block">
+											<div class="info_game pageblock active">
+												<div class="title lang" key="GAMEINFORMATION">Информация об Игре</div>
+												<div class="body" style="display: block;">
+													<div class="top flex jcsb aic">
+														<div class="block"><span class="lang" key="GAMEENDIN">Конец игры через:</span> <strong class="time"><span class="hour">00</span>:<span class="min">23</span>:<span class="sec">07</span></strong></div>
+														<div class="block"><span class="lang" key="CURENTRATE">Текущий курс: </span><strong>309.75 USD</strong></div>
+														<div class="block"><span class="lang" key="PLAYERSCOUNT">Игроков: </span><strong>1 893</strong></div>
+														<div class="block"><span class="lang" key="PRIZE">Приз: </span><strong class="green">185 ETH</strong></div>
+														<div class="block"><span class="lang" key="NEXTGAMEIN">Следующая игра через: </span><strong class="time"><span class="hour">00</span>:<span class="min">23</span>:<span class="sec">07</span></strong></div>
+													</div>
+													<div class="graph" id="chart_container_btc">
+														<img src="images/graph2.png" alt="">
+													</div>
+													<div class="flex jcc">
+														<div class="graph_info">Based on coinmarketcap.com</div>
+													</div>
+												</div>
+											</div>
+											<div class="bet">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="pageblock">
+															<div class="b_title lang" key="CURRENTBETS">Текущие ставки 1</div>
+															<div class="title lang" key="CURRENTBETS">Текущие ставки</div>
+															<div class="body">
+																<div class="row flex">
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block active">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block ative">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="pageblock">
+															<div class="b_title lang" key="BETSONTHENEXTGAME">Ставки на следующую игру 1 (17:00)</div>
+															<div class="title lang" key="BETSONTHENEXTGAME">Ставки на следующую игру (17:00)</div>
+															<div class="body">
+																<div class="row flex">
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="col-sm-6 col-xs-12">
+																		<div class="block ative">
+																			<ul>
+																				<li><span class="lang" key="YOURRATE">Ваш курс:</span> <span>4 700.85 USD</span></li>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <span>2.5 ETH</span></li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab_block">
+									<div class="result">
+										<div class="baron">
+											<div class="baron__scroller">
+												<div class="wrap">
+													<div class="result_table">
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="color lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="color lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="color lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="color lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="color lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="color lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="color lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="block">
+															<div class="top flex aic">
+																<div class="game"><span class="lang" key="GAME">Игра:</span> <strong>0143</strong> <span class="color lang" key="SHORTETH">Короткая Игра ETH</span></div>
+																<div class="date"><strong>14 <span class="lang" key="DECEMBER">Декабря</span> 2018, 21:00</strong></div>
+																<div class="kurs"><span class="lang" key="FINTALRATE">Итоговый курс:</span> <strong>3 528.4 USD</strong></div>
+																<div class="status"><span class="lang" key="JACKPOT">Джекпот:</span> <strong>185 ETH</strong></div>
+															</div>
+															<div class="openinfo">
+																<div class="info">
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="INTHEBANK">В Банке</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left"><span class="lang" key="PRIZE">Приз:</span> <span>0.15 ETH</span></div>
+																			<div class="right lang" key="PAID">Выплачено</div>
+																		</div>
+																	</div>
+																	<div class="i_block flex">
+																		<div class="title">16RrSwERbS...</div>
+																		<div class="body">
+																			<ul>
+																				<li><span class="lang" key="YOURBET">Ставка:</span> <strong>0.001 ETH</strong></li>
+																				<li><span class="lang" key="RATE">Курс:</span> <strong>2 500 USD</strong></li>
+																			</ul>
+																		</div>
+																		<div class="status_b flex aic jcsb">
+																			<div class="left red lang" key="YOULOSE">Вы проиграли</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														
+														
+													</div>
+												</div>
+											</div>
+											<div class="baron__track">
+												<div class="baron__free">
+													<div class="baron__bar"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12">
+							<div class="tab_valet">
+								<div class="valt_block active">
+									<div class="right_col">
+										<div class="mobwrap">
+											<div class="block">
+												<div class="wrap">
+													<div class="title lang" key="BALANCE">Баланс</div>
+													<div class="balance flex aic jcsb">
+														<span>386.45 ETH</span>
+														<a href="#popup" class="openmodal lang" key="Withdraw">Вывести</a>
+													</div>
+													<input type="text" value="16RrSwERbS4f5RwBRQbRrSw48fds4с" id="copylink">
+													<a href="#" class="link copybufer">16RrSwERbS4f5RwBRQbRrSw48fds4с</a>
+													<div class="infocopy lang" key="COPIED">Скорпировано</div>
+												</div>
+											</div>
+											<div class="block">
+												<div class="wrap">
+													<div class="title flex jcsb aic"><span class="lang" key="YOURBET">Ставка</span> <span>17:00 <span class="lang" key="SHORTGAME">Короткая Игра</span></span></div>
+													<div class="step">
+														<div class="step_block active">
+															<div class="wrap_step">
+																<div class="rate">
+																	<div class="r_title lang" key="Currency">Валюта</div>
+																	<div class="radioblock flex aic jcsb">
+																		<label>
+																			<input type="radio" name="rate1" checked>
+																			<span>ETH</span>
+																		</label>
+																		<label>
+																			<input type="radio" name="rate1">
+																			<span>BTC</span>
+																		</label>
+																	</div>
+																</div>
+																<div class="row kurs">
+																	<div class="col-xs-6">
+																		<span class="lang" key="YOURRATE">Ваш курс:</span> (USD)
+																		<div>0.000</div>
+																	</div>
+																	<div class="col-xs-6">
+																		<span class="lang" key="YOURBET">Ставка</span> (BTC)
+																		<div>0.00001</div>
+																	</div>
+																</div>
+																<button class="site_button lang" key="DOBET">сделать ставку</button>
+															</div>
+														</div>
+														<div class="step_block">
+															<div class="wrap_step">
+																<div class="step_info">
+																	<span class="lang" key="BETACCEPTED">Ваша ставка принята!</span>
+																	<span class="lang" key="UCANMAKEBETS">Вы можете сделать еще 3 ставки</span>
+																</div>
+																<button class="site_button lang" key="ADDBET">добавить ставку</button>
+															</div>
+														</div>
+														<div class="step_block">
+															<div class="wrap_step big">
+																<div class="step_info">
+																	<span class="lang" key="ALLBETSACCEPTED">Все ставки приняты!</span>
+																	<span class="lang" key="WAITFORRESULT">Дождитесь результата игры</span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="close"></div>
+										</div>
+										<div class="showmob">
+											<a href="#" class="site_button big openblock lang" key="DOBET">сделать ставку</a>
+										</div>
+										<div class="textblock">
+											<span class="lang social-header" key="JOINUS">Присоединяйтесь к нам:</span><br>
+											<div class="social-links">
+												<a href="#" class="tg-link">Telegram</a>
+												<a href="#" class="dc-link">Discord</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="valt_block">
+									<div class="right_col">
+										<div class="mobwrap">
+											<div class="block">
+												<div class="wrap">
+													<div class="title lang" key="BALANCE">Баланс</div>
+													<div class="balance flex aic jcsb">
+														<span>386.45 ETH</span>
+														<a href="#popup" class="openmodal lang" key="Withdraw">Вывести</a>
+													</div>
+													<input type="text" value="16RrSwERbS4f5RwBRQbRrSw48fds4с" id="copylink">
+													<a href="#" class="link copybufer">16RrSwERbS4f5RwBRQbRrSw48fds4с</a>
+													<div class="infocopy lang" key="COPIED">Скорпировано</div>
+												</div>
+											</div>
+											<div class="block">
+												<div class="wrap">
+													<div class="title flex jcsb aic"><span class="lang" key="YOURBET">Ставка</span> <span>17:00 <span class="lang" key="SHORTGAME">Короткая Игра</span></span></div>
+													<div class="step">
+														<div class="step_block active">
+															<div class="wrap_step">
+																<div class="rate">
+																	<div class="r_title lang" key="Currency">Валюта</div>
+																	<div class="radioblock flex aic jcsb">
+																		<label>
+																			<input type="radio" name="rate2" >
+																			<span>ETH</span>
+																		</label>
+																		<label>
+																			<input type="radio" name="rate2" checked>
+																			<span>BTC</span>
+																		</label>
+																	</div>
+																</div>
+																<div class="row kurs">
+																	<div class="col-xs-6">
+																		<span class="lang" key="YOURRATE">Ваш курс:</span> (USD)
+																		<div>0.000</div>
+																	</div>
+																	<div class="col-xs-6">
+																		<span class="lang" key="YOURBET">Ставка</span> (BTC)
+																		<div>0.00001</div>
+																	</div>
+																</div>
+																<button class="site_button lang" key="DOBET">сделать ставку</button>
+															</div>
+														</div>
+														<div class="step_block">
+															<div class="wrap_step">
+																<div class="step_info">
+																	<span class="lang" key="BETACCEPTED">Ваша ставка принята!</span>
+																	<span class="lang" key="UCANMAKEBETS">Вы можете сделать еще 3 ставки</span>
+																</div>
+																<button class="site_button lang" key="ADDBET">добавить ставку</button>
+															</div>
+														</div>
+														<div class="step_block">
+															<div class="wrap_step big">
+																<div class="step_info">
+																	<span class="lang" key="ALLBETSACCEPTED">Все ставки приняты!</span>
+																	<span class="lang" key="WAITFORRESULT">Дождитесь результата игры</span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="close"></div>
+										</div>
+										<div class="showmob">
+											<a href="#" class="site_button big openblock lang" key="DOBET">сделать ставку</a>
+										</div>
+										<div class="textblock">
+											<span class="lang" key="JOINUS">Присоединяйтесь к нам:</span><br>
+											<div class="social-links">
+												<a href="#" class="tg-link">Telegram</a>
+												<a href="#" class="dc-link">Discord</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<div class="blockin">
+				<div class="row">
+					<div class="col-sm-9 col-xs-7">
+						<div class="copyright">
+							© 2018 <strong>CryptoBra<span>zz</span>ers</strong>
+						</div>
+					</div>
+					<!-- <div class="col-sm-3 col-xs-5 right">
+						<a href="#" class="tg_link"><span class="lang" key="TELEGRAMMCHANNEL">Наш канал в</span> <strong>Telegram</strong></a>
+					</div> -->
+				</div>
+			</div>
+		</footer>
+		<div class="popup_wrap" id="popup">
+			<div class="wrap">
+				<div class="step_popup active">
+					<div class="p_title lang" key="WITHDROWFOUND">Вывод средств</div>
+					<form action="/" class="send">
+						<div class="row">
+							<div class="col-xs-12">
+								<span class="lang" key="RECWALLET">Кошелек получателя</span>
+								<input type="text" value="16RrSwERbS4f5RwBRQbRrSw48fds4с">
+							</div>
+							<div class="col-xs-6">
+								<span class="lang" key="AMOUNT">Сумма</span> (ETH)
+								<input type="text" value="0.00">
+							</div>
+							<div class="col-xs-6">
+								<span class="lang" key="COMMISSION">Комиссия</span> (ETH)
+								<input type="text" value="0.00001">
+							</div>
+							<div class="col-xs-12 flex jcc">
+								<button class="site_button minbut lang" key="SEND">отправить</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="step_popup">
+					<div class="p_title lang" key="SUCCESSFULY">Успешно!</div>
+					<div class="text">
+						<span class="lang" key="SUCCESSWITHDROW">Вы вывели </span><strong>0.25 ETH</strong> <br>
+						<span class="lang" key="SUCCESSWITHDROW1">на кошелек: </span>16RrSwERbS4f5RwBRQbRrSw48fds4с
+					</div>
+				</div>
+				<div class="closebut"></div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	
+	
+	<!-- HighCharts -->
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/highcharts-more.js"></script>
+	<script src="https://code.highcharts.com/modules/data.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	
+	<script src="js/baron.js"></script>
+	<script src="js/main.js?201901211530"></script>
+	<script src="js/translations.js?201901211530"></script>
+
+	
+	<!-- Graphic -->
+	<script src="js/globals.js?201901211530"></script>
+	<script src="js/theme.js?201901211530"></script>
+	<script src="js/graphic.js?201901211530"></script>
+</body>
+</html>
